@@ -1,10 +1,14 @@
 # Preface
 
-We had the need to add massive features to the System-UI and we needed it fast: Reports
+We had the need to add massive features to the System-UI (Keytiles) and we needed it fast: Reports.
+
+This involved both backend (Golang) + frontend (React app) work.
 
 I decided to put myself on learning curve in terms of how could things like this done with AI agents maintaining a right balance between complete vibe coding (stupid and risky) and everything written by hand.
 
 Let me document the workflow quickly in this file where did I arrive to during the past ~2 months.
+
+I used [Cursor IDE](https://cursor.com/get-started) for this.
 
 # Important findings
 
@@ -30,7 +34,7 @@ I also found this youtube video in which it looks the guy actually arrived to so
 
 # Current workflow
 
-I created two folders:
+Withing the git repo I created two folders:
  * `docs` - I ask agent to create feature / module etc documentation .md files here - versioned! (Semantic but only major.minor - no need for patch for docs)
  * `cursor-prompts` and within this subfolders of release versions (but this is optional).
  
@@ -39,7 +43,7 @@ And then I do the following now:
 ## Step 1 - preparation
 
  1. I figure it out what feature / increment I want to work on. I try to be small!
- 2. Then I check the "docs" folder if I have docs there describing how the system works NOW! If not then I ask AI agent to document this/that for me there how does it work. I usually pre-create empty files there as placeholders for the docs. And it is really a good idea to phrase some rules/best practices how these should look like / work - see [Tips - rules / best practices](#document-rules--best-practices-into-standalone-md-files)
+ 2. Then I check the "docs" folder if I have respective module / class / feature docs there describing how the system works NOW! If not then I ask AI agent to document this/that for me there how does it work. I usually pre-create empty files there as placeholders for the docs. And it is really a good idea to phrase some rules/best practices how these should look like / work - see [Tips - rules / best practices](#document-rules--best-practices-into-standalone-md-files)
 
 So we have a clean starting state!
 

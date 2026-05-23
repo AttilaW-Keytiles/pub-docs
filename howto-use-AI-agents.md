@@ -47,7 +47,7 @@ And then I do the following now:
 
 So we have a clean starting state!
 
-## Step 2
+## Step 2 - specification
 
 It's time to specify what I want!
 
@@ -63,13 +63,13 @@ as this helps a lot, it really does!
 
 When plan looks good, in the "cursor-prompts" folder (or subfolders - up to you) I create a new blank file "feature-xxx-vX.Y.md" (version is an increment of course compared to prev versions) and ask the agent to document the plan there.
 
-## Step 3
+## Step 3 - implementation
 
 Then we implement with the agent the plan (specification) and do iterations / code reviews etc. As much as needed.
 
 Check [Tips](#tips) here! There are a few useful stuff there...
 
-## Step 4
+## Step 4 - documentation
 
 Finally, once the implementation looks good, it is time to document the changes!
 
@@ -148,7 +148,7 @@ Do not modify test cases for now - just the code. We deal with tests later.
 
 ## Document rules / best practices into standalone .md files
 
-When we work with the agent on code or on docs - see [Step 1](#step-1---preparation) or [Step 4](#step-4) - it is really handy to sit down once and craft an .md file in which you simply write down (try to be short, concise!) rules and best practices.
+When we work with the agent on code or on docs - see [Step 1](#step-1---preparation) or [Step 4](#step-4---documentation) - it is really handy to sit down once and craft an .md file in which you simply write down (try to be short, concise!) rules and best practices.
 
 I do it for:
 * coding rules
@@ -184,7 +184,7 @@ Don't forget that this is just about writing the code which I do alone! No discu
 
 Not that great... You really need to keep your eye on even tiny details even on class or method level.
 
-Take [Step 2](#step-2) very seriously!
+Take [Step 2](#step-2---specification) very seriously!
 
 If you do not correct the stupid decisions then it can esily lead to 10-15% stupid code, unnecessary private methods or simply poorly designed structures and functionality. It happened to me many many times. So experience is still needed a lot!
 
